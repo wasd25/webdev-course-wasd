@@ -1,0 +1,20 @@
+(Música introductoria alegre)
+¡Hola a todos y bienvenidos a Fundamentos de Desarrollo Web! Soy [Tu Nombre] y estoy súper emocionado de empezar este viaje con ustedes.
+
+(Mostrar sitios web populares: YouTube, Twitter, etc.)
+Alguna vez te has preguntado... ¿cómo funcionan estas páginas? ¿Cómo es que haces clic en un botón y pasa algo? ¿O cómo está organizado todo?
+
+Bueno, todo se reduce a dos lenguajes fundamentales: HTML y CSS.
+
+(Mostrar un diagrama simple: HTML = Esqueleto, CSS = Ropa)
+Piensen en HTML como los "huesos" de una página web. Es la estructura. Le dice al navegador: "Oye, esto es un título", "esto es un párrafo de texto", "aquí va una imagen".
+
+Pero el HTML solo, se ve bastante aburrido.
+
+Ahí es donde entra el CSS, o "Hojas de Estilo en Cascada". El CSS es la "ropa" de la página web. Es el estilo. Le dice al navegador: "Quiero que ese título sea azul y grande", "quiero que esa imagen tenga un borde redondeado" y "quiero que todo esté centrado".
+
+(Mostrar CodePen.io)
+En este curso, no necesitan descargar NADA. Usaremos una herramienta en línea gratuita llamada CodePen. Aquí es donde escribiremos nuestro código y veremos la magia suceder en tiempo real.
+
+En la próxima lección, escribiremos nuestra primera línea de HTML. ¡Nos vemos allí!
+(Música de cierre)
