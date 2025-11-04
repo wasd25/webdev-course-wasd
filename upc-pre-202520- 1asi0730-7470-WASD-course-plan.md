@@ -7,7 +7,7 @@ requiere descargas!** Solo abre tu navegador web.
 **Prerrequisitos**: Ninguno
 **Herramientas necesarias**: **¡Solo tu navegador web!** (Chrome, Firefox, Safari, Edge)
 
-**📂 Repositorio de código fuente**: [https://github.com/yourusername/webdev-courseteamname](https://github.com/yourusername/webdev-course-teamname)
+**📂 Repositorio de código fuente**: [https://github.com/wasd25/webdev-course-wasd](https://github.com/wasd25/webdev-course-wasd)
 ## Secuencia de la lección
 
 ### Lección 1: ¿Qué es el desarrollo web? (5 minutos)
