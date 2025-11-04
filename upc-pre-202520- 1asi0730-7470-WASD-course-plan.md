@@ -22,25 +22,25 @@ Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sit
 - **Descripción**: Explora las etiquetas HTML básicas y crea tu primera página. 
 - **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=example-link2) -
 - **Consejos clave**: Usa `<html>`, `<head>`, `<body>`, `<h1>`, `<p>`. 
-- **Práctica**: [Clic para programar](https://codepen.io/pen?template=azdxBqy) <- **¡No necesitas registrarte!**
+- **Práctica**: [Clic para programar](https://codepen.io/pen?template=YPwMrVL) <- **¡No necesitas registrarte!**
 
 ### Lección 3: Añadir más elementos HTML (8 minutos)
 - **Descripción**: Agrega listas, imágenes y enlaces para que tu página sea interactiva. 
 - **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=example-link3) 
 - **Consejos clave**: Usa las etiquetas `<ul>`, `<img>`, `<a>`. 
-- **Práctica**: [Clic para programar](https://jsfiddle.net/u7389xL2/) <- **¡Comienza al instante!**
+- **Práctica**: [Clic para programar](https://jsfiddle.net/0L32p4k6/) <- **¡Comienza al instante!**
 
 ### Lección 4: Introducción a CSS (12 minutos) 
 - **Descripción**: Dale estilo a tu HTML con colores, fuentes y diseños. 
 - **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=example-link4) 
 - **Consejos clave**: Vincular CSS, usar selectores como `body { background-color: blue; }`.
-- **Práctica**: [Aplicar estilo con un clic](https://codepen.io/pen?template=OPMdavg) <- **¡No es necesario registrarse!**
+- **Práctica**: [Aplicar estilo con un clic](https://codepen.io/pen?template=azdxqyW) <- **¡No es necesario registrarse!**
 
 ### Lección 5: Crear una página web sencilla (15 minutos) 
 - **Descripción**: Combinar HTML y CSS para crear una página de perfil personal. 
 - **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=example-link5) 
 - **Consejos clave**: Aplicar estilos y depurar errores. 
-- **Proyecto Final**: [Crea tu Perfil](https://replit.com/@yoyo7623/Lesson5#index.html)
+- **Proyecto Final**: [Crea tu Perfil](https://replit.com/@yoyo7623/Lesson5?v=1)
 
 ### Lección 6: Consejos y Próximos Pasos (10 minutos) 
 - **Descripción**: Mejores prácticas, errores comunes y dónde aprender más. 
