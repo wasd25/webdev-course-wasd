@@ -1,0 +1,28 @@
+¡Hola! Hoy vamos a hacer nuestra página más interesante.
+
+(Empezar con el código de la lección anterior)
+Primero, ¿qué tal una lista de cosas que nos gustan? Hay dos tipos de listas, pero hoy usaremos una lista "no ordenada", que usa viñetas.
+
+Para eso, usamos la etiqueta `<ul>` (Unordered List). Y dentro, cada elemento de la lista usa la etiqueta `<li>` (List Item).
+(Escribir)
+<ul>
+  <li>Jugar videojuegos</li>
+  <li>Escuchar música</li>
+  <li>Ver películas</li>
+</ul>
+
+¡Genial! Ahora, ¿qué tal un enlace? Los enlaces, o "hipervínculos", son los que hacen que la web esté conectada. Usamos la etiqueta `<a>`, que significa "anchor" (ancla).
+
+La etiqueta `<a>` necesita un "atributo". Un atributo nos da más información sobre la etiqueta. En este caso, el atributo `href`, que le dice al navegador A DÓNDE debe ir el enlace.
+(Escribir)
+<p>Visita mi sitio favorito: <a href="https://www.youtube.com">YouTube</a>.</p>
+(Probar el enlace en la vista previa)
+
+Finalmente, ¡imágenes! La web sería aburrida sin imágenes. Usamos la etiqueta `<img>`.
+Esta etiqueta es especial, no tiene etiqueta de cierre. ¡Pero SÍ necesita atributos!
+Necesita `src` (source, o fuente) para decirle dónde está la imagen, y `alt` (texto alternativo) para describir la imagen si no se puede cargar, o para lectores de pantalla.
+
+(Escribir)
+<img src="https://www.youtube.com/watch?v=TSrMUaL_ikk" alt="Un perro adorable">
+
+¡Increíble! Ahora tu página tiene texto, listas, enlaces e imágenes. En la próxima lección, le daremos color y estilo con CSS.
