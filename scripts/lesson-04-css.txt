@@ -1,0 +1,36 @@
+(Empezar con el HTML de la lección 3. Ir a la ventana de CSS en CodePen)
+Muy bien, nuestra página tiene estructura, pero se ve... simple. ¡Vamos a arreglarlo con CSS!
+
+CSS funciona con "selectores". Un selector es cómo le decimos a CSS a qué etiqueta de HTML queremos aplicarle estilo.
+
+¿Quieren cambiar TODA la página? Seleccionamos la etiqueta `<body>`.
+(Escribir en la ventana de CSS)
+body {
+  background-color: #f0f0f0; /* Un gris muy claro */
+}
+
+¡Boom! El fondo cambió. Ahora, quiero que todos mis títulos `<h1>` sean azules.
+(Escribir)
+h1 {
+  color: blue;
+  text-align: center; /* ¡Y vamos a centrarlo! */
+}
+
+La sintaxis es: `selector { propiedad: valor; }`.
+
+Ahora, ¿qué pasa con los párrafos?
+(Escribir)
+p {
+  font-size: 18px; /* Hagamos la letra un poco más grande */
+  font-family: Arial, sans-serif; /* Cambiemos la fuente */
+}
+
+¿Y esa imagen? ¡Es muy grande!
+(Escribir)
+img {
+  width: 300px; /* Le ponemos un ancho fijo */
+  border: 5px solid blue; /* Le ponemos un borde azul sólido */
+  border-radius: 10px; /* ¡Y redondeamos las esquinas! */
+}
+
+¡Miren qué diferencia! Esto es solo el comienzo de CSS. En la próxima lección, usaremos todo esto para construir un proyecto final: una página de perfil.
