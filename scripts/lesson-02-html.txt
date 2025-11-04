@@ -1,0 +1,24 @@
+¡Bienvenidos de nuevo! Es hora de ensuciarnos las manos y escribir código.
+
+(Estar en CodePen.io)
+Estoy aquí en CodePen.io. Tenemos tres ventanas: HTML, CSS y JS. Por ahora, solo nos importa la de HTML.
+
+(Empezar a escribir)
+Toda página HTML necesita una estructura básica. Empezamos diciéndole al navegador que esto es HTML.
+Escribimos `<html>` y una etiqueta de cierre `</html>`. Casi todas las etiquetas de HTML tienen una de apertura y una de cierre con una diagonal.
+
+Dentro de `<html>`, tenemos dos partes principales: la "cabeza" (`<head>`) y el "cuerpo" (`<body>`).
+
+(Escribir las etiquetas <head> y <body>)
+El `<head>` es para información *sobre* la página, como el título que ves en la pestaña del navegador. Por ejemplo: `<title>Mi Primera Página</title>`.
+
+El `<body>` es todo lo que ves *dentro* de la página. ¡Aquí es donde ocurre la diversión!
+
+Vamos a añadir un título. Para eso, usamos la etiqueta `<h1>`, que significa "Heading 1", el título más importante.
+(Escribir) `<h1>¡Hola Mundo!</h1>`
+¡Miren! Al instante, aparece "Hola Mundo" en nuestra vista previa.
+
+Ahora, un párrafo. Para eso, usamos la etiqueta `<p>`.
+(Escribir) `<p>Estoy aprendiendo a programar mi primera página web.</p>`
+
+¡Y listo! Ya creaste tu primera página web. Jugaste con las etiquetas `<h1>` y `<p>`. En la próxima lección, agregaremos imágenes y enlaces.
