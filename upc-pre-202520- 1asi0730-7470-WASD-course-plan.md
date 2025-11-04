@@ -1,13 +1,15 @@
 # Fundamentos de Desarrollo Web
+
 ## Resumen del Curso
-Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sitios web sencillos con HTML y CSS. **¡No
-requiere descargas!** Solo abre tu navegador web.
-**Duración total**: ~60 minutos
-**Público objetivo**: Estudiantes de 12 a 17 años sin experiencia en programación
-**Prerrequisitos**: Ninguno
-**Herramientas necesarias**: **¡Solo tu navegador web!** (Chrome, Firefox, Safari, Edge)
+Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sitios web sencillos con HTML y CSS. **¡No requiere descargas!** Solo abre tu navegador web.<br>
+**Duración total**: ~60 minutos<br>
+**Público objetivo**: Estudiantes de 12 a 17 años sin experiencia en programación<br>
+**Prerrequisitos**: Ninguno<br>
+**Herramientas necesarias**: **¡Solo tu navegador web!** (Chrome, Firefox, Safari, Edge)<br>
 
 **📂 Repositorio de código fuente**: [https://github.com/wasd25/webdev-course-wasd](https://github.com/wasd25/webdev-course-wasd)
+
+
 ## Secuencia de la lección
 
 ### Lección 1: ¿Qué es el desarrollo web? (5 minutos)
@@ -54,7 +56,7 @@ requiere descargas!** Solo abre tu navegador web.
 |------------|---------------------|-----------------------------------------------| 
 | 1          | Explorar Sitios Web | [CodePen](https://codepen.io/your-lesson1)    | 
 | 2          | Primera página HTML | [CodePen](https://codepen.io/your-lesson2)    | 
-| 3          | Añadir imágenes     | [JSFiddle](https://jsfiddle.net/your-lesson3) | 
+| 3          | Añadir imágenes     | [JSFiddle](https://jsfiddle.net/your-lesson3) |  
 | 4          | Estilo de la página | [CodePen](https://codepen.io/your-lesson4)    | 
 | 5          | Página de perfil    | [Replit](https://replit.com/@your-lesson5)    | 
 
@@ -79,4 +81,4 @@ NRC 7470 <br>
 - Briceño Llanos, Ayrton Omar
 - Anyelo Bill, Alejos Jesus <br>
 
-**Fecha de entrega**: 14/11/2025
+**Fecha de entrega**: 14 de noviembre de 2025
