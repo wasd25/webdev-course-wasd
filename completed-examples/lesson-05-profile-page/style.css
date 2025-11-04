@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5; /* Un fondo gris claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.perfil-card {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Una sombra suave */
+    text-align: center; /* Centra todo el texto */
+    padding: 20px;
+}
+
+.perfil-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Hace la imagen perfectamente redonda */
+    border: 3px solid #007bff; /* Un borde azul */
+}
+
+.perfil-card h1 {
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.perfil-card .titulo {
+    color: #777;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.perfil-card .descripcion {
+    font-size: 16px;
+    padding: 0 10px; /* Un poco de espacio a los lados */
+}
+
+.perfil-card ul {
+    list-style: none; /* Quita las viñetas */
+    padding: 0;
+}
+
+.perfil-card ul li {
+    display: inline-block; /* Pone los enlaces uno al lado del otro */
+    margin: 0 10px;
+}
+
+.perfil-card ul li a {
+    text-decoration: none; /* Quita el subrayado del enlace */
+    color: #007bff;
+    font-weight: bold;
+}
