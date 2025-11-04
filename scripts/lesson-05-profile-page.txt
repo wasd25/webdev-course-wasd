@@ -1,0 +1,42 @@
+¡Es la hora del proyecto final! Vamos a usar todo lo que aprendimos para crear una bonita página de perfil.
+
+(Empezar con el HTML del archivo /starter-files/lesson-05/index.html. Mostrar el HTML)
+Ok, he preparado un HTML básico. Tenemos una etiqueta `<div>` con la clase "perfil-card". Un `<div>` es solo un contenedor, y una "clase" es un nombre que le damos para poder seleccionarlo fácilmente en CSS.
+Dentro, tenemos una imagen, un `<h1>` para el nombre, un `<p>` para el título y otro para la descripción.
+
+(Ir a la ventana de CSS)
+¡Está todo desordenado! Vamos a arreglarlo.
+Primero, el `body`. Usemos un truco de CSS moderno para centrar nuestra tarjeta de perfil perfectamente.
+(Escribir)
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Esto hace que ocupe toda la altura de la pantalla */
+}
+
+Ahora, seleccionemos nuestra tarjeta usando su CLASE. Para seleccionar una clase, usamos un punto.
+(Escribir)
+.perfil-card {
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* ¡Una sombra genial! */
+  text-align: center; /* Centramos todo el texto dentro de la tarjeta */
+  padding: 20px;
+}
+
+¡Se ve mucho mejor! Ahora, la imagen de perfil.
+(Escribir)
+.perfil-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* ¡Esto la hace un círculo perfecto! */
+  border: 3px solid #007bff; /* Un borde azul */
+}
+
+(Continuar estilizando el h1, p, y los enlaces como en el archivo CSS de ejemplo)
+
+¡Miren eso! En solo unos minutos, creamos una tarjeta de perfil profesional combinando HTML estructural y estilos CSS. ¡Felicidades, han construido su primer proyecto web!
