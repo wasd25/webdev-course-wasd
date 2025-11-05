@@ -1,28 +1,56 @@
 ¡Hola! Hoy vamos a hacer nuestra página más interesante.
 
-(Empezar con el código de la lección anterior)
-Primero, ¿qué tal una lista de cosas que nos gustan? Hay dos tipos de listas, pero hoy usaremos una lista "no ordenada", que usa viñetas.
-
-Para eso, usamos la etiqueta `<ul>` (Unordered List). Y dentro, cada elemento de la lista usa la etiqueta `<li>` (List Item).
+(Empezar con el código de la lección anterior).
+Primero, ¿qué tal una lista de cosas que nos gustan? Usaremos una lista "no ordenada", que usa viñetas.
+Usamos la etiqueta `<ul>` (Unordered List). Y dentro, cada elemento de la lista usa la etiqueta `<li>` (List Item)[cite: 106].
 (Escribir)
-<ul>
-  <li>Jugar videojuegos</li>
-  <li>Escuchar música</li>
-  <li>Ver películas</li>
-</ul>
+`<h2>Mis Hobbies</h2>`
+`<ul>`
+  `<li>Jugar videojuegos</li>`
+  `<li>Escuchar música</li>`
+  `<li>Ver películas</li>`
+`</ul>`
+¡Genial!
 
-¡Genial! Ahora, ¿qué tal un enlace? Los enlaces, o "hipervínculos", son los que hacen que la web esté conectada. Usamos la etiqueta `<a>`, que significa "anchor" (ancla).
+---
+**PAUSA PARA LA PRÁCTICA (3-4 minutos)**
+**(Decir esto a la cámara):** "Tu turno. Pausa el video y agrega un cuarto elemento `<li>` a la lista con otro hobby o comida que te guste."
+**(Pausar la grabación 10-15 segundos).**
+¿Ya? ¡Perfecto! Yo agregaré...
+(Escribir) `<li>Comer pizza</li>`
+¡Fácil!
 
-La etiqueta `<a>` necesita un "atributo". Un atributo nos da más información sobre la etiqueta. En este caso, el atributo `href`, que le dice al navegador A DÓNDE debe ir el enlace.
+---
+(Continuación)
+Ahora, ¡enlaces! Los enlaces (`<a>`) son los que conectan la web. Usamos la etiqueta `<a>`, que significa "anchor" (ancla).
+Esta etiqueta necesita un "atributo". Un atributo nos da más información. El atributo `href` le dice al navegador A DÓNDE ir[cite: 106].
 (Escribir)
-<p>Visita mi sitio favorito: <a href="https://www.youtube.com">YouTube</a>.</p>
-(Probar el enlace en la vista previa)
+`<p>Visita mi sitio favorito: <a href="https://www.youtube.com">YouTube</a>.</p>`
+¡Miren! Ahora "YouTube" es un enlace clickeable.
 
-Finalmente, ¡imágenes! La web sería aburrida sin imágenes. Usamos la etiqueta `<img>`.
-Esta etiqueta es especial, no tiene etiqueta de cierre. ¡Pero SÍ necesita atributos!
-Necesita `src` (source, o fuente) para decirle dónde está la imagen, y `alt` (texto alternativo) para describir la imagen si no se puede cargar, o para lectores de pantalla.
+---
+**ERRORES COMUNES (4-5 minutos)**
+¿Qué pasa si escribo mal el atributo?
+(Escribir) `<a ref="https://www.google.com">Google</a>`
+"Miren, el texto aparece, pero no es un enlace. ¿Por qué? Porque escribí `ref` en lugar de `href`. El navegador no entendió la instrucción. ¡La ortografía es clave! Lo corrijo..."
+
+Ahora, ¡imágenes! Usamos la etiqueta `<img>`. Esta etiqueta es especial, no tiene etiqueta de cierre.
+PERO, necesita atributos OBLIGATORIOS[cite: 46]:
+1. `src` (source, o fuente) para decirle dónde está la imagen.
+2. `alt` (texto alternativo) para describir la imagen si no se puede cargar.
 
 (Escribir)
-<img src="https://www.youtube.com/watch?v=TSrMUaL_ikk" alt="Un perro adorable">
+`<img src="https://picsum.photos/id/237/400/300" alt="Un perro cachorro negro">`
 
-¡Increíble! Ahora tu página tiene texto, listas, enlaces e imágenes. En la próxima lección, le daremos color y estilo con CSS.
+"¡Ahí está! Un perro adorable. Ahora, ¿qué pasa si escribo mal el `src`?"
+(Cambiar el `src` a `.../237/400/301` o una URL rota)
+"¡Miren! La imagen se rompió. Pero, ¿ven ese texto que aparece? 'Un perro cachorro negro'. ¡Ese es nuestro texto `alt`! Por eso es tan importante."
+(Arreglar el `src` de nuevo).
+
+---
+**MINI-RETO (2 minutos)**
+¡Tu página se ve genial! Tu reto antes del próximo video es:
+1. Encuentra otra imagen que te guste en internet (¡usa picsum.photos!) y agrégala.
+2. Agrega un enlace a tu red social o sitio web favorito.
+
+En la próxima lección, le daremos color y estilo con CSS. ¡Nos vemos!

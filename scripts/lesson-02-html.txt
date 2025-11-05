@@ -1,18 +1,16 @@
-¡Bienvenidos de nuevo! Es hora de ensuciarnos las manos y escribir código.
+¡Bienvenidos de nuevo! Es hora de escribir nuestro primer código.
 
-(Estar en CodePen.io)
+(Estar en CodePen.io, en una ventana nueva)
 Estoy aquí en CodePen.io. Tenemos tres ventanas: HTML, CSS y JS. Por ahora, solo nos importa la de HTML.
 
 (Empezar a escribir)
-Toda página HTML necesita una estructura básica. Empezamos diciéndole al navegador que esto es HTML.
-Escribimos `<html>` y una etiqueta de cierre `</html>`. Casi todas las etiquetas de HTML tienen una de apertura y una de cierre con una diagonal.
+Toda página HTML necesita una estructura básica. Escribimos `<html>` y una etiqueta de cierre `</html>`. Casi todas las etiquetas de HTML tienen una de apertura y una de cierre con una diagonal.
 
 Dentro de `<html>`, tenemos dos partes principales: la "cabeza" (`<head>`) y el "cuerpo" (`<body>`).
-
 (Escribir las etiquetas <head> y <body>)
 El `<head>` es para información *sobre* la página, como el título que ves en la pestaña del navegador. Por ejemplo: `<title>Mi Primera Página</title>`.
 
-El `<body>` es todo lo que ves *dentro* de la página. ¡Aquí es donde ocurre la diversión!
+El `<body>` es todo lo que ves *dentro* de la página[cite: 100]. ¡Aquí es donde ocurre la diversión!
 
 Vamos a añadir un título. Para eso, usamos la etiqueta `<h1>`, que significa "Heading 1", el título más importante.
 (Escribir) `<h1>¡Hola Mundo!</h1>`
@@ -21,4 +19,37 @@ Vamos a añadir un título. Para eso, usamos la etiqueta `<h1>`, que significa "
 Ahora, un párrafo. Para eso, usamos la etiqueta `<p>`.
 (Escribir) `<p>Estoy aprendiendo a programar mi primera página web.</p>`
 
-¡Y listo! Ya creaste tu primera página web. Jugaste con las etiquetas `<h1>` y `<p>`. En la próxima lección, agregaremos imágenes y enlaces.
+---
+**PAUSA PARA LA PRÁCTICA (3-4 minutos)**
+¡Perfecto! Ahora te toca a ti.
+**(Decir esto a la cámara):** "OK, es tu turno. Pausa el video y practica. Quiero que intentes dos cosas:
+1. Cambia el texto del `<h1>` para que diga tu nombre.
+2. Agrega una *nueva* etiqueta `<p>` debajo de la primera, diciendo qué es lo que más te gusta hacer."
+
+**(Pausar la grabación o esperar en silencio 10-15 segundos).**
+¿Listo? ¡Genial! Así es como yo lo haría:
+(Escribir el código)
+`<h1>Soy [Tu Nombre]</h1>`
+`<p>Estoy aprendiendo a programar mi primera página web.</p>`
+`<p>Me encanta jugar videojuegos.</p>`
+¡Excelente!
+
+---
+**ERRORES COMUNES (3-4 minutos)**
+Ahora, algo súper importante. ¿Qué pasa si me olvido de cerrar una etiqueta? Este es el error #1.
+(Ir al código y **borrar intencionalmente la etiqueta de cierre `</p>`** de la primera línea de párrafo).
+
+`<p>Estoy aprendiendo a programar...`
+`<p>Me encanta jugar videojuegos.</p>`
+
+"¡Miren! ¿Ven qué pasó? Ahora ambas líneas de texto están juntas, como si fueran un solo párrafo. El navegador no supo dónde terminaba el primer párrafo, así que simplemente siguió adelante. Por eso es VITAL que siempre cierren sus etiquetas. Voy a arreglarlo..."
+(Volver a poner el `</p>`).
+
+¡Listo! Ya creaste tu primera página web.
+
+---
+**MINI-RETO (2 minutos)**
+OK, antes de ir a la siguiente lección, un pequeño reto. Ya vimos la etiqueta `<h1>` para el título más grande. ¿Puedes adivinar cuál es la etiqueta para un subtítulo? ¡Inténtalo! Es `<h2>`.
+Intenta agregar una etiqueta `<h2>` que diga "Mis Hobbies" justo encima de tu segundo párrafo.
+
+¡Inténtalo! Nos vemos en la próxima lección, donde agregaremos imágenes y enlaces.

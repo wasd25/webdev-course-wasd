@@ -1,36 +1,72 @@
-(Empezar con el HTML de la lección 3. Ir a la ventana de CSS en CodePen)
-Muy bien, nuestra página tiene estructura, pero se ve... simple. ¡Vamos a arreglarlo con CSS!
+(Empezar con el HTML de la lección 3. Ir a la ventana de CSS en CodePen )
+Muy bien, nuestra página tiene estructura, pero se ve... simple. ¡Vamos a arreglarlo con CSS! [cite: 46]
 
 CSS funciona con "selectores". Un selector es cómo le decimos a CSS a qué etiqueta de HTML queremos aplicarle estilo.
-
 ¿Quieren cambiar TODA la página? Seleccionamos la etiqueta `<body>`.
 (Escribir en la ventana de CSS)
-body {
-  background-color: #f0f0f0; /* Un gris muy claro */
-}
-
+`body {`
+`  background-color: #f0f0f0; /* Un gris muy claro */`
+`}`
 ¡Boom! El fondo cambió. Ahora, quiero que todos mis títulos `<h1>` sean azules.
 (Escribir)
-h1 {
-  color: blue;
-  text-align: center; /* ¡Y vamos a centrarlo! */
-}
+`h1 {`
+`  color: blue;`
+`  text-align: center; /* ¡Y vamos a centrarlo! */`
+`}`
+La sintaxis es: `selector { propiedad: valor; }`[cite: 111].
 
-La sintaxis es: `selector { propiedad: valor; }`.
+---
+**PAUSA PARA LA PRÁCTICA (3-4 minutos)**
+**(Decir esto a la cámara):** "OK, ¡pausa el video! Quiero que intentes dos cosas:
+1. Cambia el `background-color` del `body` a `lightblue`.
+2. Cambia el `color` del `<h1>` a `purple`."
 
+**(Pausar la grabación 10-15 segundos).**
+¿Ya lo tienes? ¡Genial! Así es como se vería:
+(Mostrar el código)
+`body { background-color: lightblue; }`
+`h1 { color: purple; text-align: center; }`
+Fácil, ¿verdad? ¡Sigamos! (Regresar el código a los colores originales).
+
+---
+(Continuación)
 Ahora, ¿qué pasa con los párrafos?
 (Escribir)
-p {
-  font-size: 18px; /* Hagamos la letra un poco más grande */
-  font-family: Arial, sans-serif; /* Cambiemos la fuente */
-}
+`p {`
+`  font-size: 18px; /* Hagamos la letra un poco más grande */`
+`  font-family: Arial, sans-serif; /* Cambiemos la fuente */`
+`}`
 
-¿Y esa imagen? ¡Es muy grande!
+---
+**ERRORES COMUNES (5-6 minutos)**
+Aquí es donde la gente más se equivoca en CSS.
+Error #1: Olvidar el punto y coma (`;`).
+(Ir al código CSS y **borrar intencionalmente el punto y coma** después de `18px`).
+`p {`
+`  font-size: 18px`
+`  font-family: Arial, sans-serif;`
+`}`
+
+"¡Oh no! ¿Vieron eso? El tamaño de la letra (`font-size`) funcionó, ¡pero la fuente (`font-family`) no! El navegador se confundió. ¿Por qué? Porque en CSS, cada regla *debe* terminar con un punto y coma (`;`). Si no lo pones, la siguiente regla no funciona."
+(Agregar el punto y coma de nuevo). "¡Ahí está!"
+
+Error #2: Olvidar una llave de cierre (`}`).
+(Borrar la llave de cierre `}` del selector `p`)
+"¡Miren! ¡Ahora todo mi CSS se rompió! ¡Incluso el estilo del `h1` desapareció! ¿Por qué? Porque al borrar la llave de cierre, el navegador piensa que todo lo que sigue es parte del selector `p`."
+(Poner la llave `}` de nuevo). "¡Perfecto!"
+
+---
+(Continuación)
+¡Genial! Finalmente, la imagen. ¡Es muy grande!
 (Escribir)
-img {
-  width: 300px; /* Le ponemos un ancho fijo */
-  border: 5px solid blue; /* Le ponemos un borde azul sólido */
-  border-radius: 10px; /* ¡Y redondeamos las esquinas! */
-}
+`img {`
+`  width: 300px; /* Le ponemos un ancho fijo */`
+`  border: 5px solid blue; /* Le ponemos un borde azul sólido */`
+`  border-radius: 10px; /* ¡Y redondeamos las esquinas! */`
+`}`
 
-¡Miren qué diferencia! Esto es solo el comienzo de CSS. En la próxima lección, usaremos todo esto para construir un proyecto final: una página de perfil.
+---
+**MINI-RETO (2 minutos)**
+**(Decir a la cámara):** "OK, antes de ir al proyecto final, aquí tienes un reto. En nuestro HTML, tenemos una etiqueta `<h2>` para 'Mis Hobbies'. Tu reto es: ¿puedes escribir el selector de CSS para `h2` y ponerle un `color` que sea `green` (verde)?"
+
+"Inténtalo ahora mismo. Nos vemos en la próxima lección, donde construiremos nuestro proyecto final: ¡una página de perfil! [cite: 48]"

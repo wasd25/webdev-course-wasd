@@ -3,11 +3,11 @@
 (Mostrar la página de perfil terminada)
 Pasamos de una página en blanco a esto. Aprendieron qué es HTML, qué es CSS, cómo estructurar contenido con etiquetas y cómo darle estilo con propiedades.
 
-Ahora, un par de consejos de despedida.
+Ahora, un par de consejos de despedida[cite: 49].
 (Mostrar una lista en pantalla)
-1.  **El error más común es un error tipográfico.** Si algo no funciona, revisa que hayas cerrado todas tus etiquetas (`</p>`) y que no te falte un punto y coma (`;`) en tu CSS.
-2.  **Ver código fuente.** Haz clic derecho en cualquier sitio web y selecciona "Ver código fuente". ¡Intenta reconocer las etiquetas HTML que aprendimos!
-3.  **No te frustres.** Programar es resolver problemas. ¡Es normal atascarse!
+1. **EL ERROR MÁS COMÚN ES UN ERROR TIPOGRÁFICO.** Si algo no funciona, revisa que hayas cerrado todas tus etiquetas (`</p>`), que no te falte un punto y coma (`;`) en tu CSS, y que hayas usado el punto (`.`) para tus clases.
+2. **VER CÓDIGO FUENTE.** Haz clic derecho en cualquier sitio web y selecciona "Ver código fuente". ¡Intenta reconocer las etiquetas HTML que aprendimos!
+3. **NO TE FRUSTRES.** Programar es resolver problemas. ¡Es normal atascarse!
 
 ¿Y ahora qué? Si te gustó esto, el siguiente paso es aprender más sobre CSS (como Flexbox y Grid) y luego ¡JavaScript, para hacer tus páginas interactivas!
 

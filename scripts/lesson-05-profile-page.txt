@@ -1,42 +1,64 @@
-¡Es la hora del proyecto final! Vamos a usar todo lo que aprendimos para crear una bonita página de perfil.
+¡Es la hora del proyecto final! Vamos a usar todo lo que aprendimos para crear una bonita página de perfil[cite: 48].
 
-(Empezar con el HTML del archivo /starter-files/lesson-05/index.html. Mostrar el HTML)
-Ok, he preparado un HTML básico. Tenemos una etiqueta `<div>` con la clase "perfil-card". Un `<div>` es solo un contenedor, y una "clase" es un nombre que le damos para poder seleccionarlo fácilmente en CSS.
-Dentro, tenemos una imagen, un `<h1>` para el nombre, un `<p>` para el título y otro para la descripción.
+(Empezar con el HTML del archivo /starter-files/lesson-05/index.html).
+Ok, he preparado un HTML básico. Es casi todo lo que ya conocemos, pero notarán algo nuevo: `<div class="perfil-card">`.
+Un `<div>` es solo un contenedor, una caja invisible. Y una "clase" (`class`) es un nombre especial que le damos para poder seleccionarlo fácilmente en CSS.
 
 (Ir a la ventana de CSS)
 ¡Está todo desordenado! Vamos a arreglarlo.
 Primero, el `body`. Usemos un truco de CSS moderno para centrar nuestra tarjeta de perfil perfectamente.
 (Escribir)
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f2f5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Esto hace que ocupe toda la altura de la pantalla */
-}
+`body {`
+`  font-family: Arial, sans-serif;`
+`  background-color: #f0f2f5;`
+`  display: flex;`
+`  justify-content: center;`
+`  align-items: center;`
+`  height: 100vh;`
+`}`
+"¡Boom! Centrado. `display: flex` es súper poderoso, lo usarán mucho."
 
-Ahora, seleccionemos nuestra tarjeta usando su CLASE. Para seleccionar una clase, usamos un punto.
+Ahora, seleccionemos nuestra tarjeta. Como no es una etiqueta (como `p` o `h1`), sino una clase (`class`), no podemos solo escribir `perfil-card`. ¡Debemos usar un PUNTO (`.`) al inicio!"
+
 (Escribir)
-.perfil-card {
-  width: 300px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* ¡Una sombra genial! */
-  text-align: center; /* Centramos todo el texto dentro de la tarjeta */
-  padding: 20px;
-}
+`.perfil-card {`
+`  width: 300px;`
+`  background-color: white;`
+`  border-radius: 10px; /* Esquinas redondeadas */`
+`  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* ¡Una sombra genial! */`
+`  text-align: center; /* Centramos todo el texto */`
+`  padding: 20px; /* Un poco de espacio interno */`
+`}`
 
-¡Se ve mucho mejor! Ahora, la imagen de perfil.
+---
+**PAUSA PARA LA PRÁCTICA (3-4 minutos)**
+**(Decir a la cámara):** "¡Se ve genial! Pausa el video y experimenta. Intenta cambiar el `background-color` de la tarjeta a `lightblue` y el `border-radius` a `0px` para ver qué pasa."
+**(Pausar 10-15 segundos. Luego mostrar los cambios y revertirlos).**
+
+---
+**ERRORES COMUNES (3-4 minutos)**
+"¿Qué pasa si olvido el punto? (Borrar el punto de `.perfil-card`). ¡Todo desaparece! El navegador busca una etiqueta llamada `<perfil-card>`, que no existe. ¡El punto es obligatorio para las clases!"
+(Poner el punto de nuevo).
+
+---
+(Continuación)
+"¡Vamos a terminar esto! Hagamos la imagen redonda."
 (Escribir)
-.perfil-card img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%; /* ¡Esto la hace un círculo perfecto! */
-  border: 3px solid #007bff; /* Un borde azul */
-}
+`.perfil-card img {`
+`  width: 150px;`
+`  height: 150px;`
+`  border-radius: 50%; /* ¡Esto la hace un círculo perfecto! */`
+`  border: 3px solid #007bff; /* Un borde azul */`
+`}`
 
-(Continuar estilizando el h1, p, y los enlaces como en el archivo CSS de ejemplo)
+"Ahora, vamos a limpiar los títulos y los enlaces."
+(Escribir el resto del CSS del archivo /completed-examples/lesson-05/style.css, explicando brevemente `margin`, `list-style: none` y `text-decoration: none`).
 
-¡Miren eso! En solo unos minutos, creamos una tarjeta de perfil profesional combinando HTML estructural y estilos CSS. ¡Felicidades, han construido su primer proyecto web!
+---
+**MINI-RETO (2 minutos)**
+¡Miren eso! En solo unos minutos, creamos una tarjeta de perfil profesional.
+Tu reto final es:
+1. Cambia el `border` de la imagen a un color que te guste.
+2. Cambia el `color` de los enlaces (`<a>`) a `green`.
+
+¡Felicidades! Han construido su primer proyecto web. ¡Nos vemos en el video final!
