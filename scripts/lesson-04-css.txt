@@ -1,72 +1,82 @@
-(Empezar con el HTML de la lección 3. Ir a la ventana de CSS en CodePen )
-Muy bien, nuestra página tiene estructura, pero se ve... simple. ¡Vamos a arreglarlo con CSS! [cite: 46]
+(Empezar con el HTML de la lección 3. Ir a la ventana de CSS en CodePen)
+Muy bien, nuestra página tiene estructura. Tiene huesos. Pero se ve... simple. Es hora de ponerle la ropa. ¡Es hora de CSS!
 
-CSS funciona con "selectores". Un selector es cómo le decimos a CSS a qué etiqueta de HTML queremos aplicarle estilo.
-¿Quieren cambiar TODA la página? Seleccionamos la etiqueta `<body>`.
+(Señalar la ventana de CSS)
+Vamos a movernos a esta ventana.
+La sintaxis de CSS, la forma en que funciona, es siempre la misma.
+Es: `Selector { Propiedad: Valor; }`
+(Repetir eso lentamente).
+El **Selector** es A QUÉ le damos estilo (ej: al `<h1>`, al `<p>`).
+La **Propiedad** es QUÉ queremos cambiar (ej: el `color`).
+El **Valor** es CÓMO lo queremos cambiar (ej: a `blue`).
+
+Vamos a probarlo. ¿Quieren cambiar TODA la página? El selector es `<body>`.
 (Escribir en la ventana de CSS)
 `body {`
-`  background-color: #f0f0f0; /* Un gris muy claro */`
+`  background-color: #f0f0f0;`
 `}`
-¡Boom! El fondo cambió. Ahora, quiero que todos mis títulos `<h1>` sean azules.
+(Explicar) "background-color es la propiedad. #f0f0f0 es el valor para un gris muy claro. ¡Y boom! El fondo cambió."
+
+Ahora, quiero que mi título `<h1>` sea especial. El selector es `h1`.
 (Escribir)
 `h1 {`
 `  color: blue;`
-`  text-align: center; /* ¡Y vamos a centrarlo! */`
+`  text-align: center;`
 `}`
-La sintaxis es: `selector { propiedad: valor; }`[cite: 111].
+(Explicar) "Propiedad: `color`. Valor: `blue`. Propiedad: `text-align`. Valor: `center`. ¡Y miren! Nuestro título es azul y está centrado."
 
----
-**PAUSA PARA LA PRÁCTICA (3-4 minutos)**
-**(Decir esto a la cámara):** "OK, ¡pausa el video! Quiero que intentes dos cosas:
+Ahora los párrafos. El selector es `p`.
+(Escribir)
+`p {`
+`  font-size: 18px;`
+`  font-family: Arial, sans-serif;`
+`}`
+(Explicar) "`font-size` es tamaño de letra. `18px` significa 18 píxeles. `font-family` es el tipo de letra. Le decimos 'usa Arial, y si no la tienes, usa cualquier fuente sans-serif'."
+
+### Pausa para la Práctica (Extensa)
+**(Decir esto a la cámara):** "OK, ¡pausa el video! Tu turno.
+Quiero que intentes tres cosas:
 1. Cambia el `background-color` del `body` a `lightblue`.
-2. Cambia el `color` del `<h1>` a `purple`."
+2. Cambia el `color` del `<h1>` a `purple`.
+3. Escribe un NUEVO selector para la etiqueta `<li>` y ponle un `color` de `green`."
 
 **(Pausar la grabación 10-15 segundos).**
 ¿Ya lo tienes? ¡Genial! Así es como se vería:
 (Mostrar el código)
 `body { background-color: lightblue; }`
 `h1 { color: purple; text-align: center; }`
-Fácil, ¿verdad? ¡Sigamos! (Regresar el código a los colores originales).
+`p { ... }`
+`li { color: green; }`
+(Señalar la vista previa) "¡Miren! Las viñetas de la lista ahora son verdes. ¡Excelente!"
+(Regresar el código a los colores originales).
 
----
-(Continuación)
-Ahora, ¿qué pasa con los párrafos?
-(Escribir)
-`p {`
-`  font-size: 18px; /* Hagamos la letra un poco más grande */`
-`  font-family: Arial, sans-serif; /* Cambiemos la fuente */`
-`}`
-
----
-**ERRORES COMUNES (5-6 minutos)**
-Aquí es donde la gente más se equivoca en CSS.
-Error #1: Olvidar el punto y coma (`;`).
+### Errores Comunes (¡El más importante!) (Extenso)
+¡Escuchen! Esto es lo más importante de la lección. Aquí es donde el 99% de los principiantes se atascan.
+**Error #1: Olvidar el punto y coma (`;`).**
 (Ir al código CSS y **borrar intencionalmente el punto y coma** después de `18px`).
 `p {`
 `  font-size: 18px`
 `  font-family: Arial, sans-serif;`
 `}`
 
-"¡Oh no! ¿Vieron eso? El tamaño de la letra (`font-size`) funcionó, ¡pero la fuente (`font-family`) no! El navegador se confundió. ¿Por qué? Porque en CSS, cada regla *debe* terminar con un punto y coma (`;`). Si no lo pones, la siguiente regla no funciona."
-(Agregar el punto y coma de nuevo). "¡Ahí está!"
+"¡Oh no! ¿Vieron eso? El tamaño de la letra (`font-size`) funcionó, ¡pero la fuente (`font-family`) no! El navegador se confundió. ¿Por qué?
+Porque en CSS, cada regla, cada línea, *debe* terminar con un punto y coma (`;`). Es como el punto al final de una oración. Si no lo pones, el navegador junta las dos líneas y no entiende nada."
+(Agregar el punto y coma de nuevo). "¡Ahí está! Vuelve a funcionar."
 
-Error #2: Olvidar una llave de cierre (`}`).
+**Error #2: Olvidar una llave de cierre (`}`).**
 (Borrar la llave de cierre `}` del selector `p`)
-"¡Miren! ¡Ahora todo mi CSS se rompió! ¡Incluso el estilo del `h1` desapareció! ¿Por qué? Porque al borrar la llave de cierre, el navegador piensa que todo lo que sigue es parte del selector `p`."
+"¡Miren! ¡Ahora todo mi CSS se rompió! ¡Incluso el estilo del `<h1>` desapareció! ¿Por qué?
+Porque al borrar la llave de cierre, el navegador piensa que todo lo que sigue (incluyendo el selector `img`) es parte del estilo de `p`. ¡Entró en pánico!"
 (Poner la llave `}` de nuevo). "¡Perfecto!"
 
----
-(Continuación)
-¡Genial! Finalmente, la imagen. ¡Es muy grande!
+(Continuar con el guion)
+¡Genial! Finalmente, la imagen. El selector es `img`.
 (Escribir)
 `img {`
-`  width: 300px; /* Le ponemos un ancho fijo */`
-`  border: 5px solid blue; /* Le ponemos un borde azul sólido */`
-`  border-radius: 10px; /* ¡Y redondeamos las esquinas! */`
+`  width: 300px;`
+`  border: 5px solid blue;`
+`  border-radius: 10px;`
 `}`
+(Explicar lentamente cada propiedad: `width` para el ancho, `border` para el borde, y `border-radius` para las esquinas redondeadas).
 
----
-**MINI-RETO (2 minutos)**
-**(Decir a la cámara):** "OK, antes de ir al proyecto final, aquí tienes un reto. En nuestro HTML, tenemos una etiqueta `<h2>` para 'Mis Hobbies'. Tu reto es: ¿puedes escribir el selector de CSS para `h2` y ponerle un `color` que sea `green` (verde)?"
-
-"Inténtalo ahora mismo. Nos vemos en la próxima lección, donde construiremos nuestro proyecto final: ¡una página de perfil! [cite: 48]"
+¡Miren qué diferencia! En la próxima lección, usaremos todo esto para construir un proyecto final.

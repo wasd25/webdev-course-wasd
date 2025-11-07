@@ -1,22 +1,39 @@
-(Música introductoria alegre)
-¡Hola a todos y bienvenidos a Fundamentos de Desarrollo Web! Soy [Tu Nombre] y estoy súper emocionado de empezar este viaje con ustedes.
+(Música introductoria alegre y enérgica)
+¡Hola a todos! Bienvenidos a "Fundamentos de Desarrollo Web". Soy [Tu Nombre], y en los próximos 60 minutos, vamos a pasar de cero a crear nuestra primera página web.
 
 (Mostrar sitios web populares: YouTube, Wikipedia, etc.)
-Alguna vez te has preguntado... ¿cómo funcionan estas páginas? ¿Cómo es que haces clic en un botón y pasa algo? ¿O cómo está organizado todo?
+Seguro usas páginas como estas todos los días. ¿Pero alguna vez te has preguntado cómo funcionan? ¿Qué las hace visibles? ¿Qué las hace bonitas?
 
-Bueno, todo se reduce a dos lenguajes fundamentales: HTML y CSS[cite: 36].
+La respuesta es que todas, absolutamente todas, se construyen sobre dos lenguajes fundamentales: HTML y CSS.
 
 (Mostrar un diagrama simple: HTML = Esqueleto, CSS = Ropa)
-Piensen en HTML como los "huesos" de una página web. Es la estructura[cite: 45]. Le dice al navegador: "Oye, esto es un título", "esto es un párrafo de texto", "aquí va una imagen".
+Quiero que piensen en esto de una forma muy simple.
+Piensen en una página web como si fuera una persona.
 
-Pero el HTML solo, se ve bastante aburrido.
+**El HTML (HyperText Markup Language)** son los "huesos". Es el esqueleto.
+El HTML le dice al navegador: "Oye, esto es un título", "esto es un párrafo de texto", "aquí va una imagen", "esto es un enlace". Le da la ESTRUCTURA. Sin HTML, no hay página web.
 
-Ahí es donde entra el CSS, o "Hojas de Estilo en Cascada". El CSS es la "ropa" de la página web. Es el estilo[cite: 46]. Le dice al navegador: "Quiero que ese título sea azul y grande", "quiero que esa imagen tenga un borde redondeado" y "quiero que todo esté centrado".
+Pero claro, un esqueleto solo... es un poco aburrido, ¿verdad?
+
+Ahí es donde entra el **CSS (Cascading Style Sheets)**.
+El CSS es la "ropa", la "piel", el "estilo".
+El CSS le dice al navegador: "Quiero que ese título sea azul y grande", "quiero que esa imagen tenga un borde redondeado" y "quiero que todo esté centrado y se vea genial". Le da el ESTILO.
 
 (Mostrar CodePen.io)
-En este curso, no necesitan descargar NADA[cite: 41]. ¡Cero instalaciones! Usaremos una herramienta en línea 100% gratuita llamada CodePen[cite: 42]. Aquí es donde escribiremos nuestro código y veremos la magia suceder en tiempo real.
+Ahora, lo mejor de todo. Para este curso, **no necesitas descargar ni instalar NADA**. No necesitas ser un genio de la informática ni tener un computador súper potente. Solo necesitas una cosa: un navegador web, como el que estás usando ahora.
 
-Déjenme enseñarles cómo funciona. (Tomarse 2-3 minutos para mostrar la interfaz de CodePen: la ventana de HTML, la de CSS y la ventana de vista previa en vivo).
+Vamos a usar una herramienta en línea 100% gratuita llamada **CodePen.io**.
+(Tomarse 2-3 minutos para mostrar la interfaz de CodePen).
+Miren, es súper simple.
+Cuando abres un "Pen" nuevo, tienes tres ventanas:
 
-Es súper simple. En la próxima lección, escribiremos nuestra primera línea de HTML. ¡No se lo pierdan!
+1.  Una ventana para **HTML** (aquí pondremos los huesos).
+2.  Una ventana para **CSS** (aquí pondremos la ropa).
+3.  (Ignoramos la ventana de JS, eso es para más adelante).
+
+Y aquí abajo, tenemos la ventana de **vista previa en vivo**.
+Lo mágico de esto es que cualquier cosa que escribamos en las ventanas de código, aparecerá al instante en la vista previa. Es la forma más rápida y divertida de aprender.
+
+Así que, si estás listo, ve a CodePen.io en tu navegador.
+En la próxima lección, escribiremos nuestras primeras líneas de código. ¡Vamos!
 (Música de cierre)
