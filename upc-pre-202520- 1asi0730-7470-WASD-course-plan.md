@@ -26,7 +26,7 @@ Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sit
 
 ### Lección 3: Añadir más elementos HTML (8 minutos)
 - **Descripción**: Agrega listas, imágenes y enlaces para que tu página sea interactiva. 
-- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=example-link3) 
+- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=OuU6j1qsLlY) 
 - **Consejos clave**: Usa las etiquetas `<ul>`, `<img>`, `<a>`. 
 - **Práctica**: [Clic para programar](https://jsfiddle.net/0L32p4k6/) <- **¡Comienza al instante!**
 
@@ -56,7 +56,7 @@ Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sit
 |------------|---------------------|-----------------------------------------------------| 
 | 1          | Explorar Sitios Web | [CodePen](https://codepen.io/pen/)                  | 
 | 2          | Primera página HTML | [CodePen](https://codepen.io/pen?template=YPwMrVL)  | 
-| 3          | Añadir imágenes     | [JSFiddle](https://jsfiddle.net/0L32p4k6/)          |  
+| 3          | Añadir imágenes     | [CodePen](https://codepen.io/LowMathzzz/pen/raeOxyN)|  
 | 4          | Estilo de la página | [CodePen](https://codepen.io/pen?template=azdxqyW)  | 
 | 5          | Página de perfil    | [Replit](https://replit.com/@yoyo7623/Lesson5?v=1 ) | 
 
