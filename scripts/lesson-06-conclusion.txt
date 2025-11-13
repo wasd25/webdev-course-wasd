@@ -1,17 +1,26 @@
 ¡Lo lograron! ¡Completaron el curso de Fundamentos de Desarrollo Web!
 
 (Mostrar la página de perfil terminada)
-Pasamos de una página en blanco a esto. Aprendieron qué es HTML, qué es CSS, cómo estructurar contenido con etiquetas y cómo darle estilo con propiedades.
+En menos de una hora, pasamos de una página en blanco a esto.
+Aprendieron qué es HTML, los "huesos" de la web. Vimos etiquetas como `<p>`, `<h1>`, `<ul>`, `<li>`, `<a>` e `<img>`.
+Aprendieron qué es CSS, la "ropa" de la web. Vimos cómo usar selectores, propiedades y valores.
 
-Ahora, un par de consejos de despedida.
+Ahora, quiero hacer un repaso final de los **errores más comunes** que vimos. Si tu código no funciona, ¡99% seguro es una de estas 4 cosas!
+
 (Mostrar una lista en pantalla)
-1.  **El error más común es un error tipográfico.** Si algo no funciona, revisa que hayas cerrado todas tus etiquetas (`</p>`) y que no te falte un punto y coma (`;`) en tu CSS.
-2.  **Ver código fuente.** Haz clic derecho en cualquier sitio web y selecciona "Ver código fuente". ¡Intenta reconocer las etiquetas HTML que aprendimos!
-3.  **No te frustres.** Programar es resolver problemas. ¡Es normal atascarse!
+1.  **En HTML: Olvidar una etiqueta de cierre.** (Mostrar el ejemplo de `<p>...<p>`). ¡Recuerden siempre cerrar sus etiquetas (`</p>`)! Si abres una puerta, ciérrala.
+2.  **En HTML: Olvidar el `alt` en las imágenes.** Si la imagen se rompe, el usuario no sabrá qué había. ¡Siempre usen `alt`!
+3.  **En CSS: Olvidar el punto y coma (`;`).** (Mostrar el ejemplo). Es el error más frustrante. Si lo olvidas, la siguiente línea de código CSS no funcionará. Es el punto al final de la oración.
+4.  **En CSS: Olvidar el punto (`.`) para las clases.** Recuerda, `p` es para una etiqueta, `.perfil-card` es para una clase. El punto es la diferencia.
 
-¿Y ahora qué? Si te gustó esto, el siguiente paso es aprender más sobre CSS (como Flexbox y Grid) y luego ¡JavaScript, para hacer tus páginas interactivas!
+Si pueden recordar esos 4 errores, ¡ya están muy por delante de cuando empezamos!
 
-Un recurso increíble es MDN Web Docs. Búsquenlo en Google, es el mejor manual de referencia que existe.
+¿Y ahora qué?
+El viaje no termina aquí. Si te gustó esto, el siguiente paso es aprender más sobre CSS (conceptos como Flexbox y Grid, que usamos para centrar).
+Y luego, el tercer gran lenguaje de la web: **JavaScript**.
+Si HTML son los huesos y CSS es la ropa... JavaScript es el "cerebro". Es lo que añade la interactividad.
+
+Un recurso increíble para seguir aprendiendo es **MDN Web Docs**. Búsquenlo en Google, es el mejor manual de referencia que existe.
 
 Muchas gracias por acompañarme. Sigan construyendo, sigan curioseando, ¡y feliz programación!
 (Música de cierre)

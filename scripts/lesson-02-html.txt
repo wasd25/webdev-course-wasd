@@ -1,24 +1,66 @@
-¡Bienvenidos de nuevo! Es hora de ensuciarnos las manos y escribir código.
+¡Bienvenidos a la lección 2! Es hora de escribir código.
+(Estar en CodePen.io, en una ventana nueva y vacía).
 
-(Estar en CodePen.io)
-Estoy aquí en CodePen.io. Tenemos tres ventanas: HTML, CSS y JS. Por ahora, solo nos importa la de HTML.
+Muy bien, estamos en CodePen, en la ventana de HTML.
+Toda página web, no importa si es Google o un proyecto pequeño, necesita una estructura básica.
 
 (Empezar a escribir)
-Toda página HTML necesita una estructura básica. Empezamos diciéndole al navegador que esto es HTML.
-Escribimos `<html>` y una etiqueta de cierre `</html>`. Casi todas las etiquetas de HTML tienen una de apertura y una de cierre con una diagonal.
+Primero, le decimos al navegador que esto es un documento HTML. Escribimos `<html>`.
+(Escribir `<html>`)
+Y como casi todas las etiquetas en HTML, necesitamos cerrarla. Escribimos `</html>`.
+(Escribir `</html>`)
+Cualquier cosa que sea parte de nuestra página web tiene que vivir DENTRO de estas dos etiquetas.
 
-Dentro de `<html>`, tenemos dos partes principales: la "cabeza" (`<head>`) y el "cuerpo" (`<body>`).
+Dentro de `<html>`, la página se divide en dos partes MUY importantes: la "cabeza" y el "cuerpo".
+(Escribir `<head>` y `</head>`)
+El `<head>` (la cabeza) es para información *sobre* la página. Cosas que el usuario no ve directamente, como el título que aparece en la pestaña del navegador.
+(Escribir dentro del head) `<title>Mi Primera Página</title>`
+(Señalar la pestaña del navegador de CodePen) "Ven ese título allá arriba? Eso lo controla la etiqueta <title>."
 
-(Escribir las etiquetas <head> y <body>)
-El `<head>` es para información *sobre* la página, como el título que ves en la pestaña del navegador. Por ejemplo: `<title>Mi Primera Página</title>`.
+Y luego, la parte más importante...
+(Escribir `<body>` y `</body>` debajo del head)
+El `<body>` (el cuerpo). ¡Aquí es donde ocurre toda la magia! Todo lo que ves en una página web (texto, imágenes, videos) vive DENTRO del `<body>`.
 
-El `<body>` es todo lo que ves *dentro* de la página. ¡Aquí es donde ocurre la diversión!
+Vamos a añadir nuestro primer elemento. La etiqueta más común para texto es la etiqueta `<p>`, que significa "párrafo".
+(Escribir dentro del body) `<p>¡Hola Mundo!</p>`
+(Señalar la vista previa)
+¡Y miren! Al instante, apareció "Hola Mundo" en nuestra vista previa. ¡Acaban de crear su primera línea de HTML!
 
-Vamos a añadir un título. Para eso, usamos la etiqueta `<h1>`, que significa "Heading 1", el título más importante.
-(Escribir) `<h1>¡Hola Mundo!</h1>`
-¡Miren! Al instante, aparece "Hola Mundo" en nuestra vista previa.
-
-Ahora, un párrafo. Para eso, usamos la etiqueta `<p>`.
+Vamos a añadir otro párrafo.
 (Escribir) `<p>Estoy aprendiendo a programar mi primera página web.</p>`
+Perfecto.
 
-¡Y listo! Ya creaste tu primera página web. Jugaste con las etiquetas `<h1>` y `<p>`. En la próxima lección, agregaremos imágenes y enlaces.
+### Pausa para la Práctica (Extensa)
+¡Muy bien! Ahora es tu turno.
+**(Decir esto a la cámara):** "Quiero que pauses el video ahora mismo y practiques. No te preocupes, yo te espero.
+Quiero que hagas dos cosas:
+1. Cambia el texto del `<h1>` (¡oh, perdón, del `<p>`!) para que diga tu nombre.
+2. Agrega una *tercera* etiqueta `<p>` debajo de las otras, diciendo cuál es tu comida favorita."
+
+**(Pausar la grabación o esperar en silencio 10-15 segundos, simulando la espera).**
+
+¿Ya lo tienes? ¡Genial! Así es como se vería:
+(Escribir el código)
+`<p>Soy [Tu Nombre]</p>`
+`<p>Estoy aprendiendo a programar...</p>`
+`<p>Mi comida favorita es la pizza.</p>`
+¡Excelente!
+
+### Errores Comunes (Extenso)
+Ahora, te voy a enseñar el error #1 que TODOS cometen cuando empiezan.
+(Ir al código y **borrar intencionalmente la etiqueta de cierre `</p>`** del primer párrafo).
+
+`<p>Soy [Tu Nombre]`
+`<p>Estoy aprendiendo a programar...</p>`
+`<p>Mi comida favorita es la pizza.</p>`
+
+(Señalar la vista previa)
+"¿Ven qué pasó? Se ve... raro. Todo está en la misma línea, o el espacio es extraño. El navegador se acaba de confundir.
+No supo dónde terminaba el primer párrafo, así que simplemente mezcló todo.
+El navegador es muy literal. Si no le pones la etiqueta de cierre `</ap>`, él no sabe cuándo parar."
+
+(Volver a poner el `</p>`).
+"¡Y listo! Todo vuelve a la normalidad.
+**Recuerda: ¡Casi toda etiqueta que abres (`<p>`), la debes cerrar (`</p>`)!**"
+
+¡Felicidades! Ya dominas la estructura básica. En la próxima lección, lo haremos más divertido con listas, enlaces e imágenes. ¡Nos vemos!

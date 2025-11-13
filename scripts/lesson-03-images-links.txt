@@ -1,28 +1,71 @@
-¡Hola! Hoy vamos a hacer nuestra página más interesante.
+¡Hola! Bienvenidos a la lección 3.
+(Empezar con el código de la lección anterior).
+Hoy vamos a añadir más elementos a nuestra página.
 
-(Empezar con el código de la lección anterior)
-Primero, ¿qué tal una lista de cosas que nos gustan? Hay dos tipos de listas, pero hoy usaremos una lista "no ordenada", que usa viñetas.
+Primero, ¿qué tal una lista? En tu párrafo, dijiste que te gusta una comida, pero ¿qué tal si te gustan VARIAS? No queremos un párrafo largo, queremos una lista con viñetas.
 
-Para eso, usamos la etiqueta `<ul>` (Unordered List). Y dentro, cada elemento de la lista usa la etiqueta `<li>` (List Item).
+Para eso, usamos la etiqueta `<ul>`. Piensa en `<ul>` como "Unordered List" (Lista No Ordenada).
+(Escribir) `<ul></ul>`
+Esta etiqueta es la "caja" que contendrá nuestra lista.
+
+Ahora, ¿cómo ponemos cada elemento? Usamos la etiqueta `<li>`, que significa "List Item" (Elemento de la Lista).
+(Escribir dentro de <ul>)
+`<ul>`
+  `<li>Jugar videojuegos</li>`
+  `<li>Escuchar música</li>`
+  `<li>Ver películas</li>`
+`</ul>`
+(Señalar la vista previa)
+¡Genial! Miren qué ordenado se ve.
+
+### Pausa para la Práctica (Extensa)
+**(Decir esto a la cámara):** "Tu turno. Pausa el video y agrega un cuarto elemento `<li>` a la lista. Agrega tu comida favorita."
+**(Pausar la grabación 10-15 segundos).**
+¿Ya? ¡Perfecto! Yo agregaré...
+(Escribir) `<li>Comer pizza</li>`
+¡Fácil!
+
+### (Continuación del guion)
+Ahora, ¡enlaces! ¿Qué es la web sin enlaces? Los enlaces, o "hipervínculos", son los que conectan todo.
+Usamos la etiqueta `<a>`. Piensa en `<a>` como "anchor" (ancla).
+(Escribir) `<a>Visita Google</a>`
+(Señalar la vista previa)
+"Hmm... aparece el texto, pero no es un enlace. No puedo hacer clic. ¿Por qué?"
+¡Porque no le hemos dicho A DÓNDE debe ir!
+Para eso, la etiqueta `<a>` necesita un "atributo". Un atributo es información extra.
+El atributo se llama `href`.
 (Escribir)
-<ul>
-  <li>Jugar videojuegos</li>
-  <li>Escuchar música</li>
-  <li>Ver películas</li>
-</ul>
+`<p>Visita mi sitio favorito: <a href="https://www.youtube.com">YouTube</a>.</p>`
+¡Ahora sí! (Probar el enlace en la vista previa). Es azul y subrayado.
 
-¡Genial! Ahora, ¿qué tal un enlace? Los enlaces, o "hipervínculos", son los que hacen que la web esté conectada. Usamos la etiqueta `<a>`, que significa "anchor" (ancla).
-
-La etiqueta `<a>` necesita un "atributo". Un atributo nos da más información sobre la etiqueta. En este caso, el atributo `href`, que le dice al navegador A DÓNDE debe ir el enlace.
+### (Continuación del guion - Imágenes)
+Finalmente, ¡imágenes! La web sería muy aburrida sin ellas.
+Usamos la etiqueta `<img>`.
+(Escribir) `<img>`
+"Esta etiqueta es especial. Es 'auto-cerrada'. No necesita un `</img>`."
+Pero, al igual que el enlace, ¿cómo sabe qué imagen mostrar? ¡Necesita un atributo!
+El atributo de la imagen se llama `src` (piensa en "source" o fuente).
 (Escribir)
-<p>Visita mi sitio favorito: <a href="https://www.youtube.com">YouTube</a>.</p>
-(Probar el enlace en la vista previa)
+`<img src="httpsG://picsum.photos/id/237/400/300">`
+(Uso picsum.photos para una imagen de ejemplo fácil)
+¡Y ahí está!
 
-Finalmente, ¡imágenes! La web sería aburrida sin imágenes. Usamos la etiqueta `<img>`.
-Esta etiqueta es especial, no tiene etiqueta de cierre. ¡Pero SÍ necesita atributos!
-Necesita `src` (source, o fuente) para decirle dónde está la imagen, y `alt` (texto alternativo) para describir la imagen si no se puede cargar, o para lectores de pantalla.
+### Errores Comunes (Extenso)
+¡Vamos a ver los errores comunes!
+**Error #1: Confundir `href` y `src`**.
+(Señalar el código)
+"Recuerda: `href` es para enlaces (`<a>`). `src` es para imágenes (`<img>`). ¡No los mezcles!"
 
+**Error #2: El atributo `alt`**.
+¿Qué pasa si escribo mal la URL de la imagen?
+(Cambiar el `src` a una URL rota, ej: `.../foto.jpg`)
+(Señalar la vista previa)
+"¡Miren! La imagen se rompió. El usuario no ve nada. ¡Eso es terrible!
+Para arreglar esto, SIEMPRE añadimos un atributo `alt`, que significa "texto alternativo".
 (Escribir)
-<img src="https://www.youtube.com/watch?v=TSrMUaL_ikk" alt="Un perro adorable">
+`<img src="URL-ROTA" alt="Un perro cachorro negro">`
+(Señalar la vista previa)
+¡Miren! La imagen sigue rota, pero ahora el usuario al menos sabe lo que había: 'Un perro cachorro negro'. ¡Esto es vital para la accesibilidad!"
+(Arreglar el `src` de nuevo).
 
-¡Increíble! Ahora tu página tiene texto, listas, enlaces e imágenes. En la próxima lección, le daremos color y estilo con CSS.
+¡Increíble! Ahora tu página tiene listas, enlaces e imágenes. En la próxima lección, le daremos estilo con CSS.

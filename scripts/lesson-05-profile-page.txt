@@ -1,42 +1,79 @@
 ¡Es la hora del proyecto final! Vamos a usar todo lo que aprendimos para crear una bonita página de perfil.
 
 (Empezar con el HTML del archivo /starter-files/lesson-05/index.html. Mostrar el HTML)
-Ok, he preparado un HTML básico. Tenemos una etiqueta `<div>` con la clase "perfil-card". Un `<div>` es solo un contenedor, y una "clase" es un nombre que le damos para poder seleccionarlo fácilmente en CSS.
-Dentro, tenemos una imagen, un `<h1>` para el nombre, un `<p>` para el título y otro para la descripción.
+Ok, he preparado un HTML básico. Es casi todo lo que ya conocemos.
+Pero notarán algo nuevo: `<div class="perfil-card">`.
+¿Qué es esto?
+Un `<div>` es solo un contenedor, una "caja" invisible.
+Y `class="perfil-card"` es como ponerle una etiqueta con un nombre.
+¿Por qué hacemos esto? Porque en una página real, podrías tener 10 párrafos `<p>`. ¿Y si solo quieres que UNO sea rojo? No puedes usar el selector `p`.
+Usas una "clase".
 
 (Ir a la ventana de CSS)
 ¡Está todo desordenado! Vamos a arreglarlo.
-Primero, el `body`. Usemos un truco de CSS moderno para centrar nuestra tarjeta de perfil perfectamente.
+Primero, el `body`.
 (Escribir)
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f2f5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Esto hace que ocupe toda la altura de la pantalla */
-}
+`body {`
+`  font-family: Arial, sans-serif;`
+`  background-color: #f0f2f5;`
+`  display: flex;`
+`  justify-content: center;`
+`  align-items: center;`
+`  height: 100vh;`
+`}`
+(Explicar) "Esto (`display: flex...`) es un truco de CSS moderno. No te preocupes por entenderlo todo, solo sabe que estas líneas centran perfectamente nuestra tarjeta en la página."
 
-Ahora, seleccionemos nuestra tarjeta usando su CLASE. Para seleccionar una clase, usamos un punto.
+Ahora, vamos a estilizar nuestra tarjeta.
+¿El selector es `perfil-card`? (Escribir `perfil-card {...}`)
+"¡No funciona! ¿Por qué?"
+¡Porque no es una etiqueta! Es una CLASE.
+Para seleccionar una clase, ¡siempre debemos usar un PUNTO (`.`) al inicio!"
+
+(Corregir)
+`.perfil-card {`
+`  width: 300px;`
+`  background-color: white;`
+`  border-radius: 10px;`
+`  box-shadow: 0 4px 8px rgba(0,0,0,0.1);`
+`  text-align: center;`
+`  padding: 20px;`
+`}`
+(Explicar lentamente cada propiedad: `width` para el ancho, `border-radius` para las esquinas redondeadas, `box-shadow` para la sombra (explicar que rgba es un color con transparencia), `text-align` para centrar todo el texto, y `padding` para dar espacio *dentro* de la caja).
+
+### Pausa para la Práctica (Extensa)
+**(Decir a la cámara):** "¡Se ve genial! Pausa el video y experimenta.
+Intenta cambiar el `background-color` de la tarjeta a `lightblue`.
+Intenta cambiar el `border-radius` a `0px` para ver cómo se ve con esquinas cuadradas.
+Intenta cambiar el `padding` a `50px` para ver cómo se hace más grande el espacio interior."
+**(Pausar 10-15 segundos. Luego mostrar los cambios y revertirlos).**
+
+### (Continuación del guion)
+"¡Vamos a terminar esto! La imagen de perfil. ¿Cómo la seleccionamos?"
+"Podríamos usar el selector `img`. ¡Pero eso cambiaría TODAS las imágenes de nuestra página!
+Queremos ser específicos. Queremos la imagen QUE ESTÁ DENTRO de `.perfil-card`."
 (Escribir)
-.perfil-card {
-  width: 300px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* ¡Una sombra genial! */
-  text-align: center; /* Centramos todo el texto dentro de la tarjeta */
-  padding: 20px;
-}
+`.perfil-card img {`
+`  width: 150px;`
+`  height: 150px;`
+`  border-radius: 50%;`
+`  border: 3px solid #007bff;`
+`}`
+(Explicar) "Miren `border-radius: 50%`. ¡Ese es el truco! 50% en un cuadrado lo convierte en un círculo perfecto."
 
-¡Se ve mucho mejor! Ahora, la imagen de perfil.
+"Finalmente, esa lista de enlaces se ve fea con las viñetas."
 (Escribir)
-.perfil-card img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%; /* ¡Esto la hace un círculo perfecto! */
-  border: 3px solid #007bff; /* Un borde azul */
-}
+`.perfil-card ul {`
+`  list-style: none;`
+`  padding: 0;`
+`}`
+(Explicar) "`list-style: none` quita las viñetas. `padding: 0` quita un espacio que las listas traen por defecto."
 
-(Continuar estilizando el h1, p, y los enlaces como en el archivo CSS de ejemplo)
+"Y por último, que los items de la lista estén uno al lado del otro."
+(Escribir)
+`.perfil-card li {`
+`  display: inline-block;`
+`  margin: 0 10px;`
+`}`
+(Explicar) "`display: inline-block` los saca de su comportamiento de bloque y los pone en línea. `margin` les da espacio entre ellos."
 
-¡Miren eso! En solo unos minutos, creamos una tarjeta de perfil profesional combinando HTML estructural y estilos CSS. ¡Felicidades, han construido su primer proyecto web!
+¡Miren eso! En solo 15 minutos, creamos una tarjeta de perfil profesional. ¡Felicidades!
