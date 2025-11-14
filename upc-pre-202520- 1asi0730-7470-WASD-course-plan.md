@@ -14,13 +14,13 @@ Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sit
 
 ### Lección 1: ¿Qué es el desarrollo web? (5 minutos)
 - **Descripción**: Aprende de qué están hechos los sitios web y por qué HTML y CSS son los componentes básicos. 
-- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=example-link1) 
+- **Enlace**: [Ver la lección](https://youtu.be/xowhfK2HM2E) 
 - **Consejos clave**: Sitios web = Contenido (HTML) + Estilo (CSS). 
 - **Empieza a programar**: [Open CodePen](https://codepen.io/pen/)
 
 ### Lección 2: Introducción a HTML (10 minutos) 
 - **Descripción**: Explora las etiquetas HTML básicas y crea tu primera página. 
-- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=example-link2) -
+- **Enlace**: [Ver la lección](https://youtu.be/bbzQpsZxuOg) -
 - **Consejos clave**: Usa `<html>`, `<head>`, `<body>`, `<h1>`, `<p>`. 
 - **Práctica**: [Clic para programar](https://codepen.io/pen?template=YPwMrVL) <- **¡No necesitas registrarte!**
 
@@ -38,13 +38,13 @@ Este curso de 1 hora introduce a estudiantes de secundaria a la creación de sit
 
 ### Lección 5: Crear una página web sencilla (15 minutos) 
 - **Descripción**: Combinar HTML y CSS para crear una página de perfil personal. 
-- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=example-link5) 
+- **Enlace**: [Ver la lección](https://youtu.be/Cy7qXIRkMJI?si=f60BF6JhNczS2qcv) 
 - **Consejos clave**: Aplicar estilos y depurar errores. 
 - **Proyecto Final**: [Crea tu Perfil](https://replit.com/@yoyo7623/Lesson5?v=1)
 
 ### Lección 6: Consejos y Próximos Pasos (10 minutos) 
 - **Descripción**: Mejores prácticas, errores comunes y dónde aprender más. 
-- **Enlace**: [Ver Lección](https://www.youtube.com/watch?v=example-link6) 
+- **Enlace**: [Ver Lección](https://youtu.be/6F3abNlRaPE) 
 - **Consejos Clave**: Valida el código, explora la Documentación Web de MDN. 
 - **Comparte tu Trabajo**: [Envía tu Creación](https://forms.gle/LNZuvpeSu7sFGKx47)
 
