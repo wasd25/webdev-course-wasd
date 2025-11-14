@@ -8,7 +8,8 @@ Quiero que tomen un segundo para ver lo que hicieron.
 Aprendieron qué es **HTML**, los "huesos" de la web. Aprendieron que todo se basa en etiquetas.
 Vimos etiquetas como `<p>` para párrafos, `<h1>` para títulos, `<ul>` y `<li>` para listas, `<a>` para enlaces, `<img>` para imágenes y el súper importante `<div>` para crear "cajas" o contenedores.
 
-Y luego, aprendieron qué es **CSS**, la "ropa" de la web. Vimos cómo usar selectores para "apuntar" a esas etiquetas, y cómo cambiar sus propiedades y valores. Vimos `background-color`, `color`, `font-size`, `border`, `border-radius` y `padding`.
+Y luego, aprendieron qué es **CSS**, la "ropa" de la web. Vimos cómo usar selectores para "apuntar" a esas etiquetas, y cómo cambiar sus propiedades y valores. Vimos `background-color`,
+ `color`, `font-size`, `border`, `border-radius` y `padding`.
 
 Ahora, antes de terminar, quiero hacer un repaso final de los **5 Errores Más Comunes** que vimos. Si tu código se rompe en el futuro, ¡99% seguro es una de estas 5 cosas!
 
@@ -19,14 +20,17 @@ Ahora, antes de terminar, quiero hacer un repaso final de los **5 Errores Más C
 "Recuerden esto. Si ven que su diseño se 'mezcla' o se ve raro, lo primero que deben revisar es que cada `<p>` tenga su `</p>`, cada `<h1>` su `</h1>`, y cada `<div>` su `</div>`. Si abres una puerta, ¡ciérrala!"
 
 **Error #2: Confundir `href` y `src` en HTML.**
-"Recuerden: `<a>` (de ancla) usa `href` para decir a dónde va el *enlace*. `<img>` (de imagen) usa `src` (de 'source' o fuente) para decir qué imagen *mostrar*. ¡No los confundan! `href` es para enlaces, `src` es para imágenes."
+"Recuerden: `<a>` (de ancla) usa `href` para decir a dónde va el *enlace*. `<img>` (de imagen) usa `src` (de 'source' o fuente) para decir qué imagen *mostrar*. ¡No los confundan! `href` es para enlaces,
+`src` es para imágenes."
 
 **Error #3: Olvidar el atributo `alt` en las imágenes.**
-"Esto no es un error que 'rompa' la página, pero es un error de calidad. Si la imagen no carga, el usuario no ve nada. (Mostrar una imagen rota sin `alt`). ¡Siempre usen `alt="una descripción"` para que la gente sepa qué había!"
+"Esto no es un error que 'rompa' la página, pero es un error de calidad. Si la imagen no carga, el usuario no ve nada. (Mostrar una imagen rota sin `alt`). ¡Siempre usen `alt="una descripción"` para que la
+gente sepa qué había!"
 
 **Error #4: Olvidar el punto y coma (`;`) en CSS.**
 (Mostrar un ejemplo en CodePen: `h1 { color: blue font-size: 20px }`)
-"Este es el error más frustrante. Tu código se ve bien, pero no funciona. Recuerden, en CSS, el punto y coma (`;`) es como el punto al final de una oración. Le dice al navegador 'terminé esta regla, vamos a la siguiente'. ¡No lo olviden!"
+"Este es el error más frustrante. Tu código se ve bien, pero no funciona. Recuerden, en CSS, el punto y coma (`;`) es como el punto al final de una oración. Le dice al navegador 'terminé esta regla, vamos a
+la siguiente'. ¡No lo olviden!"
 
 **Error #5: Olvidar el punto (`.`) para las clases en CSS.**
 (Mostrar: `perfil-card { ... }` (incorrecto) vs `.perfil-card { ... }` (correcto))
@@ -36,13 +40,16 @@ Si pueden recordar esos 5 errores, ¡ya están muy por delante de cuando empezam
 
 **¿Y ahora qué? ¿Qué sigue?**
 El viaje no termina aquí. De hecho, apenas comienza.
-Si te gustó esto, el siguiente paso es volverte un maestro de CSS. Hay conceptos increíbles como **Flexbox** y **Grid**, que son las herramientas modernas que los profesionales usan para crear diseños de páginas complejos. (Lo que usamos con `display: flex` fue una pequeña probada de eso).
+Si te gustó esto, el siguiente paso es volverte un maestro de CSS. Hay conceptos increíbles como **Flexbox** y **Grid**, que son las herramientas modernas que los profesionales usan para crear diseños de páginas
+ complejos. (Lo que usamos con `display: flex` fue una pequeña probada de eso).
 
 Y luego... está el tercer gran lenguaje de la web: **JavaScript**.
 (Mostrar un diagrama: HTML (Huesos) + CSS (Ropa) + JS (Cerebro))
-Si HTML son los huesos y CSS es la ropa... JavaScript es el "cerebro". Es lo que añade la interactividad. ¿Quieres que un botón haga algo cuando le das clic? ¿Quieres mostrar un pop-up? ¿Quieres crear un juego? Todo eso es JavaScript.
+Si HTML son los huesos y CSS es la ropa... JavaScript es el "cerebro". Es lo que añade la interactividad. ¿Quieres que un botón haga algo cuando le das clic? ¿Quieres mostrar un pop-up? ¿Quieres crear un juego?
+Todo eso es JavaScript.
 
-Y el mejor lugar para aprender todo esto, el recurso número uno que usan TODOS los desarrolladores, desde principiantes hasta expertos, es **MDN Web Docs** (Mozilla Developer Network). Búsquenlo en Google. Es el manual de instrucciones de la web.
+Y el mejor lugar para aprender todo esto, el recurso número uno que usan TODOS los desarrolladores, desde principiantes hasta expertos, es **MDN Web Docs** (Mozilla Developer Network). Búsquenlo en Google. Es el
+manual de instrucciones de la web.
 
 Muchas gracias por acompañarme. Crearon algo increíble hoy. Sigan construyendo, sigan curioseando, ¡y feliz programación!
 (Música de cierre)
