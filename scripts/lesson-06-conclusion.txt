@@ -1,26 +1,48 @@
+(Música de cierre suave, pero de logro)
 ¡Lo lograron! ¡Completaron el curso de Fundamentos de Desarrollo Web!
 
-(Mostrar la página de perfil terminada)
-En menos de una hora, pasamos de una página en blanco a esto.
-Aprendieron qué es HTML, los "huesos" de la web. Vimos etiquetas como `<p>`, `<h1>`, `<ul>`, `<li>`, `<a>` e `<img>`.
-Aprendieron qué es CSS, la "ropa" de la web. Vimos cómo usar selectores, propiedades y valores.
+(Mostrar la página de perfil terminada, haciendo zoom en las diferentes partes: la imagen redonda, los enlaces, la sombra de la caja).
+Miren esto. En menos de una hora, pasamos de una página en blanco... a esto. Una página de perfil personal, estilizada y centrada.
 
-Ahora, quiero hacer un repaso final de los **errores más comunes** que vimos. Si tu código no funciona, ¡99% seguro es una de estas 4 cosas!
+Quiero que tomen un segundo para ver lo que hicieron.
+Aprendieron qué es **HTML**, los "huesos" de la web. Aprendieron que todo se basa en etiquetas.
+Vimos etiquetas como `<p>` para párrafos, `<h1>` para títulos, `<ul>` y `<li>` para listas, `<a>` para enlaces, `<img>` para imágenes y el súper importante `<div>` para crear "cajas" o contenedores.
 
-(Mostrar una lista en pantalla)
-1.  **En HTML: Olvidar una etiqueta de cierre.** (Mostrar el ejemplo de `<p>...<p>`). ¡Recuerden siempre cerrar sus etiquetas (`</p>`)! Si abres una puerta, ciérrala.
-2.  **En HTML: Olvidar el `alt` en las imágenes.** Si la imagen se rompe, el usuario no sabrá qué había. ¡Siempre usen `alt`!
-3.  **En CSS: Olvidar el punto y coma (`;`).** (Mostrar el ejemplo). Es el error más frustrante. Si lo olvidas, la siguiente línea de código CSS no funcionará. Es el punto al final de la oración.
-4.  **En CSS: Olvidar el punto (`.`) para las clases.** Recuerda, `p` es para una etiqueta, `.perfil-card` es para una clase. El punto es la diferencia.
+Y luego, aprendieron qué es **CSS**, la "ropa" de la web. Vimos cómo usar selectores para "apuntar" a esas etiquetas, y cómo cambiar sus propiedades y valores. Vimos `background-color`, `color`, `font-size`, `border`, `border-radius` y `padding`.
 
-Si pueden recordar esos 4 errores, ¡ya están muy por delante de cuando empezamos!
+Ahora, antes de terminar, quiero hacer un repaso final de los **5 Errores Más Comunes** que vimos. Si tu código se rompe en el futuro, ¡99% seguro es una de estas 5 cosas!
 
-¿Y ahora qué?
-El viaje no termina aquí. Si te gustó esto, el siguiente paso es aprender más sobre CSS (conceptos como Flexbox y Grid, que usamos para centrar).
-Y luego, el tercer gran lenguaje de la web: **JavaScript**.
-Si HTML son los huesos y CSS es la ropa... JavaScript es el "cerebro". Es lo que añade la interactividad.
+(Mostrar una lista en pantalla o en el código)
 
-Un recurso increíble para seguir aprendiendo es **MDN Web Docs**. Búsquenlo en Google, es el mejor manual de referencia que existe.
+**Error #1: Olvidar una etiqueta de cierre en HTML.**
+(Mostrar un ejemplo en CodePen: `<p>Hola...<p>Mundo`)
+"Recuerden esto. Si ven que su diseño se 'mezcla' o se ve raro, lo primero que deben revisar es que cada `<p>` tenga su `</p>`, cada `<h1>` su `</h1>`, y cada `<div>` su `</div>`. Si abres una puerta, ¡ciérrala!"
 
-Muchas gracias por acompañarme. Sigan construyendo, sigan curioseando, ¡y feliz programación!
+**Error #2: Confundir `href` y `src` en HTML.**
+"Recuerden: `<a>` (de ancla) usa `href` para decir a dónde va el *enlace*. `<img>` (de imagen) usa `src` (de 'source' o fuente) para decir qué imagen *mostrar*. ¡No los confundan! `href` es para enlaces, `src` es para imágenes."
+
+**Error #3: Olvidar el atributo `alt` en las imágenes.**
+"Esto no es un error que 'rompa' la página, pero es un error de calidad. Si la imagen no carga, el usuario no ve nada. (Mostrar una imagen rota sin `alt`). ¡Siempre usen `alt="una descripción"` para que la gente sepa qué había!"
+
+**Error #4: Olvidar el punto y coma (`;`) en CSS.**
+(Mostrar un ejemplo en CodePen: `h1 { color: blue font-size: 20px }`)
+"Este es el error más frustrante. Tu código se ve bien, pero no funciona. Recuerden, en CSS, el punto y coma (`;`) es como el punto al final de una oración. Le dice al navegador 'terminé esta regla, vamos a la siguiente'. ¡No lo olviden!"
+
+**Error #5: Olvidar el punto (`.`) para las clases en CSS.**
+(Mostrar: `perfil-card { ... }` (incorrecto) vs `.perfil-card { ... }` (correcto))
+"Recuerda: `p` (sin punto) es para una etiqueta HTML. `.perfil-card` (con punto) es para una `class`. El punto es la diferencia entre que funcione o que no haga absolutamente nada."
+
+Si pueden recordar esos 5 errores, ¡ya están muy por delante de cuando empezamos!
+
+**¿Y ahora qué? ¿Qué sigue?**
+El viaje no termina aquí. De hecho, apenas comienza.
+Si te gustó esto, el siguiente paso es volverte un maestro de CSS. Hay conceptos increíbles como **Flexbox** y **Grid**, que son las herramientas modernas que los profesionales usan para crear diseños de páginas complejos. (Lo que usamos con `display: flex` fue una pequeña probada de eso).
+
+Y luego... está el tercer gran lenguaje de la web: **JavaScript**.
+(Mostrar un diagrama: HTML (Huesos) + CSS (Ropa) + JS (Cerebro))
+Si HTML son los huesos y CSS es la ropa... JavaScript es el "cerebro". Es lo que añade la interactividad. ¿Quieres que un botón haga algo cuando le das clic? ¿Quieres mostrar un pop-up? ¿Quieres crear un juego? Todo eso es JavaScript.
+
+Y el mejor lugar para aprender todo esto, el recurso número uno que usan TODOS los desarrolladores, desde principiantes hasta expertos, es **MDN Web Docs** (Mozilla Developer Network). Búsquenlo en Google. Es el manual de instrucciones de la web.
+
+Muchas gracias por acompañarme. Crearon algo increíble hoy. Sigan construyendo, sigan curioseando, ¡y feliz programación!
 (Música de cierre)
